@@ -1,2 +1,2 @@
-# go-ops-api-dependencies
-Cache, HTTP, and various other dependencies for our go APIs.
+# ops-api-dependancies
+Dependancies for the OPS api service golang code.
