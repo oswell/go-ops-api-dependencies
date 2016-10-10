@@ -55,6 +55,7 @@ func HttpRespond(w http.ResponseWriter, response *HttpResponse)(error) {
         return err
     }
 
+    w.Header().Set("Access-Control-Allow-Origin", "*")
     w.WriteHeader(response.Status.Code)
     w.Write(json_result)
     return nil
